@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    height: 100vh;
+    font-family: cursive;
+}
+.whole{
+    height: 418px;
+    /* width: 256px; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: #d6dadd;
+    padding: 8px;
+    background-image: url(./Capture.PNG);
+    background-repeat: no-repeat;
+    background-position-x: 49%;
+    background-position-y: -113%;
+    background-size: 183%;
+}
+
+.top{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center
+}
+
+.header1{
+    margin: auto;
+    color: white;
+}
+.header2{
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    margin-top: 36px;
+}
+.writing{
+    padding: 10px;
+}
+
+
+.test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-circle-plus{
+    margin-top: 18px;
+    font-size: 50px;
+    color: #9ac3f1;
+}
+
+.fa-circle-check{
+    font-size: 28px;
+    color: #d8dde1;
+}
+
+.fa-circle-check:hover{
+    color: green;
+}
+
+
+.fa-arrow-left{
+    font-size: 26px;
+    color: white;
+    margin-left: 2px;
+    /* border: 0.5px solid gray; */
+}
+    
+.tik {
+    color: green;
+}
