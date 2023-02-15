@@ -1,0 +1,55 @@
+html{
+    font-family: cursive;
+}
+
+
+
+body{
+    padding: 20rem;
+}
+
+
+
+.parent{
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+}
+
+.cube{
+    transform: rotateX(0deg) rotateY(0deg);
+    position: relative;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cube-face{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.cube-front{ background: rgba(255, 0, 0, .6);}
+.cube-back{ background: rgba(0, 255, 0, .6); }
+.cube-right{ background: rgba(0, 0, 255, .6); }
+.cube-left{ background: rgba(255, 0, 255, .6); } 
+.cube-top{ background: rgba(255, 255, 0, .6); } 
+.cube-bottom{ background: rgba(14, 206, 237, .6); }
+
+
+.cube-front{ transform: rotatey(0deg) translateZ(100px); }
+.cube-back{ transform: rotatey(180deg) translateZ(100px); }
+.cube-right{ transform: rotatey(90deg) translateZ(100px); }
+.cube-left{ transform: rotatey(-90deg) translateZ(100px); } 
+.cube-top{ transform: rotateX(90deg) translateZ(100px); } 
+.cube-bottom{ transform: rotateX(-90deg) translateZ(100px); }
