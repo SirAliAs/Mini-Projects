@@ -1,2 +1,2 @@
 # Mini-Projects
-Mini Projects using html, css
+Mini Projects using html, css and Java script.
