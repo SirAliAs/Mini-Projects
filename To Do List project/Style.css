@@ -70,6 +70,7 @@ footer{
     margin-top: 18px;
     font-size: 50px;
     color: #9ac3f1;
+    cursor: pointer;
 }
 
 .fa-circle-check{
@@ -86,9 +87,15 @@ footer{
     font-size: 26px;
     color: white;
     margin-left: 2px;
+    cursor: pointer;
     /* border: 0.5px solid gray; */
 }
     
 .tik {
     color: green;
+    /* text-decoration: line-through; */
+}
+
+.tikk {
+    text-decoration: line-through;
 }
